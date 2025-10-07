@@ -813,7 +813,7 @@
                 </ul>
             </div>
 
-        <div class="experience-card" 
+       <div class="experience-card" 
      onclick="window.open('https://gunjan-d.github.io/ICDTRA-database/', '_blank')" 
      style="cursor: pointer; transition: all 0.3s ease;"
      onmouseover="this.style.borderColor='#667eea'; this.style.boxShadow='0 15px 40px rgba(102, 126, 234, 0.3)'; this.style.transform='translateY(-8px) scale(1.02)';"
@@ -839,9 +839,41 @@
         <li>Implemented CI/CD workflows automating 50 weekly database update tasks</li>
     </ul>
     
-    <div style="margin-top: 15px; text-align: center;">
-        <span style="color: #00ff88; font-size: 0.9rem;">🔬 Click to view ICDTRA Database Portal</span>
+    <div style="margin-top: 20px; text-align: center;">
+        <div style="display: inline-block; 
+                    background: rgba(0, 255, 136, 0.15); 
+                    border: 2px solid #00ff88; 
+                    border-radius: 8px; 
+                    padding: 12px 24px; 
+                    animation: blinkBox 2s ease-in-out infinite;
+                    box-shadow: 0 0 15px rgba(0, 255, 136, 0.3);">
+            <span style="color: #00ff88; 
+                         font-size: 1rem; 
+                         font-weight: bold;
+                         animation: blinkText 2s ease-in-out infinite;">
+                🔬 Click to view ICDTRA Database Portal
+            </span>
+        </div>
     </div>
+    
+    <style>
+        @keyframes blinkBox {
+            0%, 100% { 
+                box-shadow: 0 0 15px rgba(0, 255, 136, 0.3);
+                border-color: #00ff88;
+            }
+            50% { 
+                box-shadow: 0 0 25px rgba(0, 255, 136, 0.6);
+                border-color: #00ff88;
+                transform: scale(1.02);
+            }
+        }
+        
+        @keyframes blinkText {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+    </style>
 </div>
     </section>
 
