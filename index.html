@@ -768,27 +768,66 @@
     <section class="section" id="experience">
         <h2 class="section-title">Professional Experience</h2>
         
-        <div class="experience-grid">
-            <div class="experience-card">
-                <div class="code-header">Current Position</div>
-                <h3 class="company-name">Stony Brook University</h3>
-                <h4 class="job-title">Data Scientist - CS Department</h4>
-                <p class="duration">Sep 2025 - Present | NY, USA</p>
-                
-                <div class="skills-list">
-                    <span class="skill-tag">Python</span>
-                    <span class="skill-tag">HTML/CSS</span>
-                    <span class="skill-tag">JavaScript</span>
-                    <span class="skill-tag">React.js</span>
-                    <span class="skill-tag">Java</span>
-                </div>
+       <div class="experience-card" 
+     onclick="window.open('https://complexitygarden.org/', '_blank')" 
+     style="cursor: pointer; transition: all 0.3s ease;"
+     onmouseover="this.style.borderColor='#667eea'; this.style.boxShadow='0 15px 40px rgba(102, 126, 234, 0.3)'; this.style.transform='translateY(-8px) scale(1.02)';"
+     onmouseout="this.style.borderColor='#333'; this.style.boxShadow='0 10px 30px rgba(0, 255, 136, 0.2)'; this.style.transform='translateY(-5px)';">
+    <div class="code-header">Current Position</div>
+    <h3 class="company-name">Stony Brook University</h3>
+    <h4 class="job-title">Data Scientist - CS Department</h4>
+    <p class="duration">Sep 2025 - Present | NY, USA</p>
+    
+    <div class="skills-list">
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">HTML/CSS</span>
+        <span class="skill-tag">JavaScript</span>
+        <span class="skill-tag">React.js</span>
+        <span class="skill-tag">Java</span>
+    </div>
 
-                <ul class="achievement-list">
-                    <li>Collaborated on 8+ site features, improving front-end architecture and user experience significantly</li>
-                    <li>Conducted research, prototyped 5+ computational tools, deployed updates enhancing community learning</li>
-                    <li>Built Complexitygarden website with modern web technologies, enabling visualization for 100+ users</li>
-                </ul>
-            </div>
+    <ul class="achievement-list">
+        <li>Collaborated on 8+ site features, improving front-end architecture and user experience significantly</li>
+        <li>Conducted research, prototyped 5+ computational tools, deployed updates enhancing community learning</li>
+        <li>Built Complexitygarden website with modern web technologies, enabling visualization for 100+ users</li>
+    </ul>
+    
+    <div style="margin-top: 20px; text-align: center;">
+        <div style="display: inline-block; 
+                    background: rgba(102, 126, 234, 0.15); 
+                    border: 2px solid #667eea; 
+                    border-radius: 8px; 
+                    padding: 12px 24px; 
+                    animation: blinkBoxPurple 2s ease-in-out infinite;
+                    box-shadow: 0 0 15px rgba(102, 126, 234, 0.3);">
+            <span style="color: #667eea; 
+                         font-size: 1rem; 
+                         font-weight: bold;
+                         animation: blinkTextPurple 2s ease-in-out infinite;">
+                🌐 Click to view Complexity Garden
+            </span>
+        </div>
+    </div>
+    
+    <style>
+        @keyframes blinkBoxPurple {
+            0%, 100% { 
+                box-shadow: 0 0 15px rgba(102, 126, 234, 0.3);
+                border-color: #667eea;
+            }
+            50% { 
+                box-shadow: 0 0 25px rgba(102, 126, 234, 0.6);
+                border-color: #667eea;
+                transform: scale(1.02);
+            }
+        }
+        
+        @keyframes blinkTextPurple {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+    </style>
+</div>
 
             <div class="experience-card">
                 <div class="code-header">Data Science Research</div>
