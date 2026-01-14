@@ -937,85 +937,104 @@
     </section>
 
     <!-- Projects Section -->
-    <section class="section" id="projects">
-        <h2 class="section-title">Featured Projects</h2>
-        
-        <div class="projects-grid">
-            <div class="project-card" 
-                 onclick="window.open('https://recommend-ai-nine.vercel.app/', '_blank')" 
-                 style="cursor: pointer; transition: all 0.3s ease;"
-                 onmouseover="this.style.borderColor='#667eea'; this.style.boxShadow='0 15px 40px rgba(102, 126, 234, 0.3)'; this.style.transform='translateY(-8px) scale(1.02)';"
-                 onmouseout="this.style.borderColor='#333'; this.style.boxShadow='0 15px 40px rgba(102, 126, 234, 0.2)'; this.style.transform='translateY(-5px)';">
-                
-                <div class="certificate-badge">FEATURED ⭐</div>
-                <h3 class="project-title">RecommendAI - Movie Recommendation System</h3>
-                <p class="project-tech">Python, R, Machine Learning, Collaborative Filtering, scikit-learn, pandas</p>
-                <ul class="achievement-list">
-                    <li>Built intelligent recommendation system with 87% accuracy using Item-Based Collaborative Filtering</li>
-                    <li>Processed MovieLens dataset with 100K+ ratings across 10K+ movies for personalized recommendations</li>
-                    <li>Implemented dual-language solution in both Python and R with comprehensive evaluation metrics</li>
-                    <li>Deployed professional portfolio website with interactive demo and technical documentation</li>
-                    <li>Achieved RMSE: 0.87, MAE: 0.68 with potential 25% user engagement increase</li>
-                </ul>
-                
-                <div style="margin-top: 20px; text-align: center;">
-                    <div style="display: inline-block; 
-                                background: rgba(0, 255, 136, 0.15); 
-                                border: 2px solid #00ff88; 
-                                border-radius: 8px; 
-                                padding: 12px 24px; 
-                                animation: blinkBox 2s ease-in-out infinite;
-                                box-shadow: 0 0 15px rgba(0, 255, 136, 0.3);">
-                        <span style="color: #00ff88; 
-                                     font-size: 1rem; 
-                                     font-weight: bold;
-                                     animation: blinkText 2s ease-in-out infinite;">
-                            🎬 Click to view Live Demo & Technical Portfolio
-                        </span>
-                    </div>
-                </div>
-            </div>
+<section class="section" id="projects">
+    <h2 class="section-title">Featured Projects</h2>
+    
+    <div class="projects-grid">
 
-            <div class="project-card">
-                <h3 class="project-title">Explainable AI for Financial Decision-Making</h3>
-                <p class="project-tech">Scikit-learn, SHAP, LIME, Random Forest, Git</p>
-                <ul class="achievement-list">
-                    <li>Built loan approval prediction model achieving 93% accuracy and 0.94 AUC-ROC score</li>
-                    <li>Implemented SHAP and LIME frameworks for analyzing 10+ financial variables</li>
-                    <li>Created intuitive interface for real-time credit decisions with personalized suggestions</li>
-                </ul>
-                <div style="margin-top: 15px;">
-                    <a href="https://gunjan-d.github.io/credit-risk-prediction/" 
-                       class="contact-link" 
-                       target="_blank" 
-                       rel="noopener noreferrer"
-                       style="display: inline-block;">
-                        🏦 Credit Risk Prediction - ML Powered Loan Assessment
-                    </a>
-                </div>
-            </div>
-            
-            <div class="project-card">
-                <h3 class="project-title">LLM Deployment on CloudLab with GPU</h3>
-                <p class="project-tech">Linux, CUDA, Llama3.1, PANDAS, Hadoop</p>
-                <ul class="achievement-list">
-                    <li>Configured GPU-enabled CloudLab environment with CUDA drivers for 100% model compatibility</li>
-                    <li>Successfully deployed and validated Llama3.1-8B-Instruct model with complete data integrity</li>
-                    <li>Managed large-scale datasets in databases ensuring security compliance and data integrity</li>
-                </ul>
-            </div>
-
-            <div class="project-card">
-                <h3 class="project-title">R Package for ML Model Development</h3>
-                <p class="project-tech">R, Pandas, RandomForest, XGBoost, ggplot2</p>
-                <ul class="achievement-list">
-                    <li>Developed R package implementing 7+ ML models, improving accuracy by 20% using ensemble learning</li>
-                    <li>Optimized feature selection reducing dimensionality by 50% while maintaining performance</li>
-                    <li>Implemented bagging techniques increasing model robustness by 30% through resampling</li>
-                </ul>
+        <!-- RecruitReady -->
+        <div class="project-card"
+             onclick="window.open('https://gunjan-d.github.io/RecruitReady/', '_blank')"
+             style="cursor: pointer;">
+            <h3 class="project-title">RecruitReady – Resume Optimization & Job Matching Platform</h3>
+            <p class="project-tech">NLP, TF-IDF, Cosine Similarity, OpenAI, Gemini APIs</p>
+            <ul class="achievement-list">
+                <li>Built cosine similarity engine analyzing 50+ resume and job pairs under 2 seconds</li>
+                <li>Implemented TF-IDF with OpenAI and Gemini APIs to generate personalized cover letters</li>
+                <li>Developed NLP pipelines extracting 15+ structured resume data points</li>
+            </ul>
+            <div style="margin-top: 15px;">
+                <a href="https://gunjan-d.github.io/RecruitReady/"
+                   class="contact-link"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    🔗 Live Demo
+                </a>
             </div>
         </div>
-    </section>
+
+        <!-- Enterprise AI Copilot -->
+        <div class="project-card"
+             onclick="window.open('https://gunjan-d.github.io/Enterprise-AI-Copilot/', '_blank')"
+             style="cursor: pointer;">
+            <h3 class="project-title">Enterprise AI Copilot for Business Process Automation</h3>
+            <p class="project-tech">Azure OpenAI, Microsoft Copilot Studio, Python, JavaScript, REST APIs</p>
+            <ul class="achievement-list">
+                <li>Designed and deployed 7+ AI-powered agents using Azure AI services</li>
+                <li>Automated 25 enterprise workflows across Microsoft 365, SharePoint, and Teams</li>
+                <li>Debugged 68+ AI solutions with 98% accuracy using Python and JavaScript</li>
+            </ul>
+            <div style="margin-top: 15px;">
+                <a href="https://gunjan-d.github.io/Enterprise-AI-Copilot/"
+                   class="contact-link"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    🔗 Project Showcase
+                </a>
+            </div>
+        </div>
+
+        <!-- Existing Projects -->
+        <div class="project-card" 
+             onclick="window.open('https://recommend-ai-nine.vercel.app/', '_blank')" 
+             style="cursor: pointer; transition: all 0.3s ease;"
+             onmouseover="this.style.borderColor='#667eea'; this.style.boxShadow='0 15px 40px rgba(102, 126, 234, 0.3)'; this.style.transform='translateY(-8px) scale(1.02)';"
+             onmouseout="this.style.borderColor='#333'; this.style.boxShadow='0 15px 40px rgba(102, 126, 234, 0.2)'; this.style.transform='translateY(-5px)';">
+            
+            <div class="certificate-badge">FEATURED ⭐</div>
+            <h3 class="project-title">RecommendAI - Movie Recommendation System</h3>
+            <p class="project-tech">Python, R, Machine Learning, Collaborative Filtering, scikit-learn, pandas</p>
+            <ul class="achievement-list">
+                <li>Built recommendation system with 87% accuracy using collaborative filtering</li>
+                <li>Processed MovieLens dataset with 100K+ ratings across 10K+ movies</li>
+                <li>Implemented Python and R solutions with evaluation metrics</li>
+                <li>Deployed interactive portfolio website with live demo</li>
+                <li>Achieved RMSE 0.87 and MAE 0.68 improving user engagement</li>
+            </ul>
+        </div>
+
+        <div class="project-card">
+            <h3 class="project-title">Explainable AI for Financial Decision-Making</h3>
+            <p class="project-tech">Scikit-learn, SHAP, LIME, Random Forest</p>
+            <ul class="achievement-list">
+                <li>Built loan approval model achieving 93% accuracy and 0.94 AUC</li>
+                <li>Used SHAP and LIME to explain 10+ financial variables</li>
+                <li>Created real-time credit decision interface</li>
+            </ul>
+        </div>
+
+        <div class="project-card">
+            <h3 class="project-title">LLM Deployment on CloudLab with GPU</h3>
+            <p class="project-tech">Linux, CUDA, Llama3.1, Hadoop</p>
+            <ul class="achievement-list">
+                <li>Configured GPU-enabled CloudLab with CUDA drivers</li>
+                <li>Deployed Llama3.1-8B-Instruct model successfully</li>
+                <li>Managed large datasets with security compliance</li>
+            </ul>
+        </div>
+
+        <div class="project-card">
+            <h3 class="project-title">R Package for ML Model Development</h3>
+            <p class="project-tech">R, RandomForest, XGBoost, ggplot2</p>
+            <ul class="achievement-list">
+                <li>Developed R package with 7+ ML models</li>
+                <li>Reduced feature dimensionality by 50%</li>
+                <li>Improved robustness by 30% using bagging</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
 
         <!-- Campus Leadership Section -->
     <section class="section" id="campus-leadership">
