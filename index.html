@@ -452,6 +452,17 @@
             50% { opacity: 0.5; }
         }
 
+        @keyframes resumePulse {
+            0%, 100% { 
+                box-shadow: 0 0 30px rgba(0, 255, 136, 0.5);
+                transform: scale(1);
+            }
+            50% { 
+                box-shadow: 0 0 50px rgba(102, 126, 234, 0.8);
+                transform: scale(1.05);
+            }
+        }
+
         /* Projects Section with Code Animation */
         .projects-grid {
             display: grid;
@@ -794,6 +805,22 @@
                     <a href="tel:9349498870" class="contact-link">📱 (934) 949-8870</a>
                     <a href="https://linkedin.com/in/gunjan-deshpande" class="contact-link">💼 LinkedIn</a>
                     <a href="https://github.com/Gunjan-D" class="contact-link">🚀 GitHub</a>
+                </div>
+                
+                <div style="margin-top: 30px; text-align: center;">
+                    <a href="https://drive.google.com/uc?export=download&id=1i-e_YwIWS8FEMe-BxALL26JEVqnVnyvx" 
+                       class="contact-link" 
+                       download
+                       style="background: linear-gradient(45deg, #00ff88, #667eea);
+                              color: #000;
+                              font-weight: bold;
+                              font-size: 1.1rem;
+                              padding: 15px 40px;
+                              border: none;
+                              animation: resumePulse 2s ease-in-out infinite;
+                              box-shadow: 0 0 30px rgba(0, 255, 136, 0.5);">
+                        📄 Download Resume (PDF)
+                    </a>
                 </div>
             </div>
         </div>
