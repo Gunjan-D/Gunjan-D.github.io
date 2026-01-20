@@ -15,7 +15,7 @@ The design is inspired by a **terminal / hacker** look with:
 
 The website includes these sections:
 
-- **About / Hero**: name, title, short intro, contact links, resume download button  
+- **About**: name, title, short intro, contact links, resume download button  
 - **Professional Experience**: clickable experience cards with achievements  
 - **Projects**: project cards with tech stack and links  
 - **Campus Involvement**: leadership and campus roles  
