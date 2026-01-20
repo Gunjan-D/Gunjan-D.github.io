@@ -48,8 +48,7 @@ or
 
 ---
 
-## Run with a Local Server (Recommended)
-
+## Run with a Local Server 
 Running a local server avoids browser restrictions that sometimes happen with direct file opening.
 
 ### Python
