@@ -11,7 +11,7 @@ The design is inspired by a **terminal / hacker** look with:
 
 ---
 
-## What’s Inside
+## What is Inside:
 
 The website includes these sections:
 
