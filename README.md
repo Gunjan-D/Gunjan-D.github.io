@@ -1,6 +1,6 @@
 # Portfolio Website (Terminal + Matrix Theme)
 
-This repository contains a **single-page portfolio website** for **Gunjan Deshpande**.  
+This repository contains a **single-page portfolio website**.  
 It is built using only **HTML, CSS, and JavaScript** (no frameworks, no build tools).
 
 The design is inspired by a **terminal / hacker** look with:
