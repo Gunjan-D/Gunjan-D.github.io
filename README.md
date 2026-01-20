@@ -3,7 +3,7 @@
 This repository contains a **single-page portfolio website**.  
 It is built using only **HTML, CSS, and JavaScript** (no frameworks, no build tools).
 
-The design is inspired by a **terminal / hacker** look with:
+The design is inspired by a **terminal** look with:
 - a **Matrix rain** animated background
 - a **terminal-style** header and hero section
 - smooth scrolling navigation
