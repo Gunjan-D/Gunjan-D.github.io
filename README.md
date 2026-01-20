@@ -49,7 +49,7 @@ or
 ---
 
 ## Run with a Local Server 
-local server avoids browser restrictions that sometimes happen with direct file opening.
+local browser restrictions that sometimes happen with direct file opening.
 
 ### Python
 ```bash
