@@ -48,9 +48,6 @@ or
 
 ---
 
-## Run with a Local Server 
-
-
 ### Python
 ```bash
 python -m http.server 8000
