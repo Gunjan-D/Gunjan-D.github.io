@@ -49,7 +49,7 @@ or
 ---
 
 ## Run with a Local Server 
-local browser restrictions that sometimes happen with direct file 
+
 
 ### Python
 ```bash
