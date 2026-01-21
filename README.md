@@ -9,7 +9,6 @@ The design is inspired by a **terminal** look with:
 - smooth scrolling navigation
 - animated cards for experience, projects, skills, and certifications
 
----
 
 ## What is Inside:
 
