@@ -29,7 +29,7 @@ The website includes these sections:
 - **CSS3** (animations, gradients, responsive layout)
 - **Vanilla JavaScript** (Matrix rain, smooth scrolling, link opening)
 
--
+
 
 ## How to Use
 
