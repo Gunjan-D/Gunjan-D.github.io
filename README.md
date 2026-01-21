@@ -23,7 +23,7 @@ The website includes these sections:
 - **Certifications**: clickable cards that open certificate links  
 - **Contact**: quick contact actions
 
---
+-
 
 ## Tech Used
 
