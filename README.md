@@ -23,15 +23,13 @@ The website includes these sections:
 - **Certifications**: clickable cards that open certificate links  
 - **Contact**: quick contact actions
 
-
-
 ## Tech Used
 
 - **HTML5**
 - **CSS3** (animations, gradients, responsive layout)
 - **Vanilla JavaScript** (Matrix rain, smooth scrolling, link opening)
 
----
+--
 
 ## How to Use
 
