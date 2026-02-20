@@ -41,8 +41,10 @@ The website includes these sections:
 or  
 - Right click → Open with Chrome / Edge
 
+////////////////////////////////////////////////////////////////////////////////////////
 --
 
 ### Python
 ```bash
 python -m http.server 8000
+
